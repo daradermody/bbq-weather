@@ -1,0 +1,25 @@
+{
+  "name": "bbq-weather",
+  "license": "See LICENSE",
+  "author": {
+    "name": "Dara Dermody",
+    "email": "daradermody@gmail.com"
+  },
+  "description": "Get emailed about days with great weather for a BBQ!",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "axios": "^1.6.8",
+    "luxon": "^3.4.4",
+    "nodemailer": "^6.9.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/nodemailer": "^6.4.15"
+  },
+  "packageManager": "yarn@3.5.0"
+}
